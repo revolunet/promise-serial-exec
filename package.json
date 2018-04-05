@@ -1,0 +1,30 @@
+{
+  "name": "promise-serial-exec",
+  "description": "Execute promises sequentially, aka sequential `Promise.all`.",
+  "version": "1.0.0",
+  "author": "Julien Bouquillon <julien@bouquillon.com>",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolunet/promise-serial-exec.git"
+  },
+  "homepage": "https://revolunet.github.io/promise-serial-exec/",
+  "bugs": {
+    "url": "https://github.com/revolunet/promise-serial-exec/issues"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-recommended": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1",
+    "jest": "^22.4.3"
+  },
+  "keywords": ["promise", "sync", "async", "serial"]
+}

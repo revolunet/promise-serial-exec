@@ -15,7 +15,10 @@ module.exports = {
         sourceType: "module"
     },
     plugins: ["prettier"],
-    globals: {},
+    globals: {
+        expect: true,
+        it: true
+    },
     rules: {
         "prettier/prettier": "error"
     }
